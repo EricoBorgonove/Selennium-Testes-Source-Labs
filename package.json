@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-tests",
+  "version": "1.0.0",
+  "description": "Projeto de Teste para a página SauceLabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 100000 tests/testCarrinho.js",
+    "test1": "mocha --recursive --timeout 100000 tests/test.js",
+    "test2": "mocha --recursive --timeout 100000 tests/testCarrinho-separate.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "erico Borgonove",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.8.2"
+  }
+}
